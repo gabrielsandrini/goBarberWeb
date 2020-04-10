@@ -21,7 +21,6 @@ html, body, #root {
 }
 
 body{
-  height:-webkit-fill-available;
   -webkit-font-smoothing: antialiased;
 }
 
