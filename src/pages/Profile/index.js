@@ -29,10 +29,14 @@ export default function Profile() {
         <Input name="email" type="email" placeholder="Seu endereço de email" />
 
         <hr />
-        <Input name="password" type="password" placeholder="Sua senha atual" />
+        <Input
+          name="oldPassword"
+          type="password"
+          placeholder="Sua senha atual"
+        />
         <Input name="password" type="password" placeholder="Nova senha" />
         <Input
-          name="password"
+          name="confirmPassword"
           type="password"
           placeholder="Confirmação de senha"
         />
